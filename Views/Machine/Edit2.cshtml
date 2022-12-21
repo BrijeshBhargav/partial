@@ -1,0 +1,140 @@
+﻿@using MVCWebAppHTD3.Models
+
+@model Machine3
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+<body>
+    <section class="h-50 h-custom" style="background-color:  #1A237E;">
+        <div class="container py-5 h-50">
+            <div class="row d-flex justify-content-center align-items-center h-50">
+                <div class="col-lg-3 col-xl-4">
+                    <div class="card rounded-2">
+                        <img src="https://i0.wp.com/www.magetop.com/blog/wp-content/uploads/2021/07/What-is-ecommerce.jpg?fit=750%2C445&ssl=1"
+                             class="w-70" style="border-top-left-radius: .2rem; border-top-right-radius: .2rem;"
+                             alt="Sample photo">
+                        <div class="card-body p-2 p-md-3">
+                            <div class="a-box a-spacing-extra-large">
+                                <div class="a-box-inner">
+                                    <h1 class="a-spacing-small moa_desktop_signup">
+                                        Employee Registration
+                                    </h1>
+                                </div>
+
+                                @using (Html.BeginForm())
+                                {
+                                    @Html.HiddenFor(m=>m.Id)
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline ">
+                                                <label class="form-label" for="form3Example1q"> <b> Name<span class="text-danger">*</span></b></label>
+                                                @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder="Enter Name" })
+                                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1q"> <b> Designation<span class="text-danger">*</span></b></label>
+                                                <div class="col-sm-12 inputGroupContainer">
+                                                    <div class="input-group">
+                                                        @Html.ValidationMessageFor(model => model.Designation, "", new { @class = "text-danger" })
+                                                        @Html.DropDownListFor(model => model.Designation, new List<SelectListItem>
+
+                                                    {
+
+                                                    new SelectListItem { Text="Ceo",Value="Ceo"},
+                                                    new SelectListItem { Text="Manager",Value="Manager"},
+                                                    new SelectListItem { Text="Hr",Value="Hr"},
+                                                    new SelectListItem { Text="Developer",Value="Developer"},
+                                                    new SelectListItem { Text="Manager",Value="Manager"},
+
+                                                    }, new { @class = "form-group" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1q"> <b> Salary<span class="text-danger">*</span></b></label>
+                                                @Html.TextBoxFor(model => model.salary, new { @class = "form-control", placeholder="Enter salary" })
+                                                @Html.ValidationMessageFor(model => model.salary, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1q"> <b> Email<span class="text-danger">*</span></b></label>
+                                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder="Enter Email" })
+                                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1q"> <b> Mobile<span class="text-danger">*</span></b></label>
+                                                @Html.TextBoxFor(model => model.Mobile, new { @class = "form-control", placeholder="Enter Mobile" })
+                                                @Html.ValidationMessageFor(model => model.Mobile, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1q"> <b> Qualification<span class="text-danger">*</span></b></label>
+                                                <div class="col-sm-6 inputGroupContainer">
+                                                    <div class="input-group">
+                                                        @Html.ValidationMessageFor(model => model.Qualification, "", new { @class = "text-danger" })
+                                                        @Html.DropDownListFor(model => model.Qualification, new List<SelectListItem>
+
+                                                    {
+
+                                                    new SelectListItem { Text="Mtech",Value="Mtech"},
+                                                    new SelectListItem { Text="Mba",Value="Mba"},
+                                                    new SelectListItem { Text="Btech",Value="Btech"},
+                                                    new SelectListItem { Text="Degree",Value="Degree"},
+
+                                                    }, new { @class = "form-group" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2 pb-2 pb-md-0 mb-md-3">
+                                        <div class="col-md-8">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1q"> <b> Manager<span class="text-danger">*</span></b></label>
+                                                @Html.TextBoxFor(model => model.Manager, new { @class = "form-control", placeholder="Enter Manager" })
+                                                @Html.ValidationMessageFor(model => model.Manager, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success btn-sm mb-1">Submit</button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
+

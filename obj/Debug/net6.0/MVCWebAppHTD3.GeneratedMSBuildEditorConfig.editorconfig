@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCWebAppHTD3
+build_property.RootNamespace = MVCWebAppHTD3
+build_property.ProjectDir = C:\Users\HP\source\repos\MVCWebAppHTD3\MVCWebAppHTD3\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\MVCWebAppHTD3\MVCWebAppHTD3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Machine/Display2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZVxEaXNwbGF5Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Machine/Edit2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZVxFZGl0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Machine/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/Dis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxEaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/Dis2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxEaXMyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/Display3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxEaXNwbGF5My5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/Display4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxEaXNwbGF5NC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/Homepage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxIb21lcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxpbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/partial/insert2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFydGlhbFxpbnNlcnQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Shared/_userLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF91c2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/MVCWebAppHTD3/MVCWebAppHTD3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wa2q8ab7og
